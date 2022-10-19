@@ -1,0 +1,17 @@
+header, .contact {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+}
+header button, .contact button {
+  background: grey;
+}
+header button:hover, .contact button:hover {
+  transform: scale(1.3);
+}
+
+.contact {
+  background: pink;
+}/*# sourceMappingURL=style.css.map */

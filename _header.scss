@@ -1,0 +1,17 @@
+@mixin flexCenter {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  @include flexCenter();
+  background: grey;
+  button {
+    background: grey;
+    &:hover {
+      transform: scale(1.3);
+    }
+  }
+}

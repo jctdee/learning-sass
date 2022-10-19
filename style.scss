@@ -1,0 +1,8 @@
+$primaryBtn: teal;
+
+@import "./header";
+
+.contact {
+  @extend header;
+  background: pink;
+}
